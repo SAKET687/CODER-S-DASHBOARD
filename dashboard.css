@@ -1,0 +1,155 @@
+/* General styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	height: 100%;
+	font-family:sans-serif;
+	font-size: 1.9rem;
+	color: #fff;
+	background-image: url(https://64.media.tumblr.com/7f87779c30139e1c1de6dce95ad7693b/tumblr_ocwdgfVpcX1s3zokdo2_1280.jpg);
+	background-size:cover;
+	display: grid;
+	place-items: center;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.option {
+	font-size: 14px;
+    margin-right: 65px;
+    margin-left: 65px;
+    color: #b7b8c0;
+    margin-top: 16px;
+}
+
+.container {
+	max-width: 110rem;
+	padding: 1.5rem;
+}
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	grid-gap: 1.5rem;
+}
+.card {
+	background: #262525;
+	color:#e0e1e2;
+	padding: 1.5rem;
+	overflow: hidden;
+	border-radius: 0.8rem;
+}
+
+.time {
+	margin-right:80%;
+	color:rgb(255, 68, 249);
+	box-shadow: 1 8rem 12rem rgba(0,0,0,0.4),0 12px 13px rgba(0,0,0,0.16);
+}
+
+
+
+.card-title-large {
+	font-family: fantasy, sans-serif;
+	font-size: 8rem;
+	letter-spacing: 0.5rem;
+	color: #1d1d1d;
+    user-select: none;
+	transform: translateX(7rem);
+	transition: transform 3.0s;
+}
+.card-title-small {
+	margin-bottom: 1rem;
+}
+.card-description {
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
+.card-cta {
+	display: inline-block;
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	margin-left: auto;
+}
+.card:hover .card-cta {
+	background-color: #262525;
+}
+.card:hover .card-title-large {
+	transform: translateX(-115%);
+	color: #262525;
+}
+.card.HackerRank:hover {
+	background-color: #19f83a;
+}
+.card.HackerEarth:hover {
+	background-color: #4267b2
+	
+}
+.card.Codechef:hover {
+	background-color: #00d0ff;
+}
+.card.Codeforces:hover {
+	background-color: gold;
+}
+
+.card.Stackoverflow:hover {
+	background-color:rgb(20, 170, 145);
+}
+
+.card.gfg:hover {
+	background-color:#0ba422eb;
+}
+
+.card.Leetcode:hover {
+    background-color:rgb(186, 186, 33);
+}
+
+.card.GDP:hover {
+	background-color:#0e8ded;
+}
+
+.card.ApnaCollege:hover {
+	background-color:red;
+}
+
+.card.Github:hover {
+	background-color:#97c1eb;
+}
+
+.card.Linkedin:hover {
+	background-color:rgb(0, 0, 255);
+}
+
+.card.Codehelp:hover {
+	background-color:violet;
+}
+
+.card.CodingNinjas:hover {
+	background-color:rgba(250, 118, 31, 0.9);
+}
+
+.card.cwh:hover {
+    background-color: rgb(37, 194, 178);
+}
+
+.card.TakeUForward:hover {
+    background-color:red;
+}
+
+.card.Crio:hover {
+    background-color:#1dc059;
+}
+
+.card.AtCoder:hover {
+    background-color:#0e8ded;
+}
