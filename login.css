@@ -1,58 +1,61 @@
+body {
+  background: #7f3fff;
+  text-align: center;
+  font-family: sans-serif;
+  background-size: cover;
+}
 
-body{
-    background: #7f3fff;
-    text-align: center;
-    font-family: sans-serif;
-    background-size:cover;
+.form {
+  background-color: #e0e1e2;
+  width: 500px;
+  padding: 80px 40px;
+  position: relative;
+  height: 400px;
+  margin-left: 450px;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+}
 
+@media (max-width: 768px) {
+  .form {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 60px 20px;
   }
-
-.form{
-    background-color: #e0e1e2;
-    width: 500px;
-    padding: 80px 40px;
-    position: relative;
-    height: 400px;
-    margin-left: 450px;
-    margin-top: 50px;
-    border-radius:8px;
-    box-shadow: 20px 20px 30px rgba(0,0,0,0.15);
-
 }
 
-label{
-    font-weight: 500;
-    color: #101030;
+label {
+  font-weight: 500;
+  color: #101030;
 }
 
-input{
-
-    display: block;
-    width: 100%;
-    margin-top: 2px;
-    padding: 12px;
-    border-radius: 5px;
-    outline: none;
-    color: #101030;
+input {
+  display: block;
+  width: 100%;
+  margin-top: 2px;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  color: #101030;
 }
 
-input[type="text"]{
-    border: 2px solid #fff;
+input[type="text"] {
+  border: 2px solid #fff;
 }
 
-input[type="password"]{
-    border: 2px solid #fff;
+input[type="password"] {
+  border: 2px solid #fff;
 }
 
-
-input[type="button"]{
-    background-color: #7f3fff;
-    border: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 1px;
-    cursor: pointer;
-
-
+input[type="button"] {
+  background-color: #7f3fff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
