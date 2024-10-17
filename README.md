@@ -1,6 +1,6 @@
 # CODER-S-DASHBOARD
 
-#  Hacktoberfest 2023 Is Awesome🔥
+#  Hacktoberfest 2024 Is Awesome🔥
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
 <div align="center">
