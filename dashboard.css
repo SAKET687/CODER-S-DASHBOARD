@@ -1,155 +1,210 @@
 /* General styles */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-	height: 100%;
-	font-family:sans-serif;
-	font-size: 1.9rem;
-	color: #fff;
-	background-image: url(https://64.media.tumblr.com/7f87779c30139e1c1de6dce95ad7693b/tumblr_ocwdgfVpcX1s3zokdo2_1280.jpg);
-	background-size:cover;
-	display: grid;
-	place-items: center;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 1.9rem;
+  color: #fff;
+  background-image: url(https://64.media.tumblr.com/7f87779c30139e1c1de6dce95ad7693b/tumblr_ocwdgfVpcX1s3zokdo2_1280.jpg);
+  background-size: cover;
+  display: grid;
+  place-items: center;
 }
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .option {
-	font-size: 14px;
-    margin-right: 65px;
-    margin-left: 65px;
-    color: #b7b8c0;
-    margin-top: 16px;
+  font-size: 14px;
+  margin-right: 65px;
+  margin-left: 65px;
+  color: #b7b8c0;
+  margin-top: 16px;
 }
 
 .container {
-	max-width: 110rem;
-	padding: 1.5rem;
+  max-width: 110rem;
+  padding: 1.5rem;
 }
 .cards {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-	grid-gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1.5rem;
 }
 .card {
-	background: #262525;
-	color:#e0e1e2;
-	padding: 1.5rem;
-	overflow: hidden;
-	border-radius: 0.8rem;
+  background: #262525;
+  color: #e0e1e2;
+  padding: 1.5rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
 }
 
 .time {
-	margin-right:80%;
-	color:rgb(255, 68, 249);
-	box-shadow: 1 8rem 12rem rgba(0,0,0,0.4),0 12px 13px rgba(0,0,0,0.16);
+  margin-right: 80%;
+  color: rgb(255, 68, 249);
+  box-shadow: 1 8rem 12rem rgba(0, 0, 0, 0.4), 0 12px 13px rgba(0, 0, 0, 0.16);
 }
-
-
 
 .card-title-large {
-	font-family: fantasy, sans-serif;
-	font-size: 8rem;
-	letter-spacing: 0.5rem;
-	color: #1d1d1d;
-    user-select: none;
-	transform: translateX(7rem);
-	transition: transform 3.0s;
+  font-family: fantasy, sans-serif;
+  font-size: 8rem;
+  letter-spacing: 0.5rem;
+  color: #1d1d1d;
+  user-select: none;
+  transform: translateX(7rem);
+  transition: transform 3s;
 }
 .card-title-small {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .card-description {
-	font-size: 1.4rem;
-	line-height: 1.5;
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 .card-cta {
-	display: inline-block;
-	width: 3.5rem;
-	height: 3.5rem;
-	border-radius: 50%;
-	display: grid;
-	place-items: center;
-	margin-left: auto;
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
 }
 .card:hover .card-cta {
-	background-color: #262525;
+  background-color: #262525;
 }
 .card:hover .card-title-large {
-	transform: translateX(-115%);
-	color: #262525;
+  transform: translateX(-115%);
+  color: #262525;
 }
 .card.HackerRank:hover {
-	background-color: #19f83a;
+  background-color: #19f83a;
 }
 .card.HackerEarth:hover {
-	background-color: #4267b2
-	
+  background-color: #4267b2;
 }
 .card.Codechef:hover {
-	background-color: #00d0ff;
+  background-color: #00d0ff;
 }
 .card.Codeforces:hover {
-	background-color: gold;
+  background-color: gold;
 }
 
 .card.Stackoverflow:hover {
-	background-color:rgb(20, 170, 145);
+  background-color: rgb(20, 170, 145);
 }
 
 .card.gfg:hover {
-	background-color:#0ba422eb;
+  background-color: #0ba422eb;
 }
 
 .card.Leetcode:hover {
-    background-color:rgb(186, 186, 33);
+  background-color: rgb(186, 186, 33);
 }
 
 .card.GDP:hover {
-	background-color:#0e8ded;
+  background-color: #0e8ded;
 }
 
 .card.ApnaCollege:hover {
-	background-color:red;
+  background-color: red;
 }
 
 .card.Github:hover {
-	background-color:#97c1eb;
+  background-color: #97c1eb;
 }
 
 .card.Linkedin:hover {
-	background-color:rgb(0, 0, 255);
+  background-color: rgb(0, 0, 255);
 }
 
 .card.Codehelp:hover {
-	background-color:violet;
+  background-color: violet;
 }
 
 .card.CodingNinjas:hover {
-	background-color:rgba(250, 118, 31, 0.9);
+  background-color: rgba(250, 118, 31, 0.9);
 }
 
 .card.cwh:hover {
-    background-color: rgb(37, 194, 178);
+  background-color: rgb(37, 194, 178);
 }
 
 .card.TakeUForward:hover {
-    background-color:red;
+  background-color: red;
 }
 
 .card.Crio:hover {
-    background-color:#1dc059;
+  background-color: #1dc059;
 }
 
 .card.AtCoder:hover {
-    background-color:#0e8ded;
+  background-color: #0e8ded;
+}
+
+footer {
+  padding: 5%;
+  background-color: black;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  margin-left: 10%;
+  padding: 20px;
+  width: 500px;
+}
+
+.right {
+  margin-top: 30px;
+  display: flex;
+}
+
+.contactcard {
+  margin: 10px;
+  text-align: center;
+  font-size: 3em;
+  width: 100px;
+  height: 110px;
+  padding: 20px;
+  background-color: #1c1f26;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.contactcard:hover {
+  border-color: #00bfff;
+  box-shadow: 0 0 20px #00bfff, 0 0 30px #00bfff;
+}
+
+.underlining{
+	font-size: 1em;
+	padding-top: 2%;
+	text-align: center;
+}
+
+.contact_us{
+	font-size: 2.5em;
+	font-weight: 900;
+	padding: 10px;
+}
+
+.contact_desc{
+	margin-left: 30px;
 }
