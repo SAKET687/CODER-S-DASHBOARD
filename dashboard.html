@@ -14,17 +14,40 @@
 	
 </head>
 <body>
-	<h2>Hey! Coders</h2>
-	<h1>Welcome to your coding dashboard</h1>
- 	<div class="time">
-        <h1 id="Current Time">Loading...</h1>
-    </div>
-    <script>
-		let time=document.getElementById("Current Time");
-		setInterval(() =>{
-			let t = new Date();
-			time.innerHTML=t.toLocaleTimeString();
-		},1000);
+
+	<header>
+		<div class="header-tag">
+			<div class="header-text">
+				<h4>NO More Hours of Tedious SEARCHING</h4>
+				<br>
+				<h2>ALL Top Resources IN </h2> 
+				<!-- <br> -->
+				<h1>ONE DASHBOARD!</h1> 
+			</div>
+
+		</div>
+	</header>
+	
+	<div class="timer-box">
+		<div class="class-icon">
+			<div class="time-icon">
+				<ion-icon name="alarm-outline"></ion-icon>
+			</div>
+		</div>
+		<div class="clock">
+			<div class="time">
+				<p id="Current-Time">Loading...</p>
+				</ion-icon>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		let time = document.getElementById("Current-Time");
+		setInterval(() => {
+		  let t = new Date();
+		  time.innerHTML = t.toLocaleTimeString();
+		}, 1000);
 	</script>
 
 	<div class="container">
