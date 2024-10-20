@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOG IN</title>
+    <title>SIGN UP</title>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="register_style.css">
 </head>
 <body>
     <!-- <header class="Heading">
@@ -20,26 +20,25 @@
 
     <div class="Entire">
         <form>
-            <h3 class="login">LOGIN</h3>
+            <h3 class="login">SIGN UP</h3>
             <div class="Portion">
                 
                 <div class="Portion_content">
                     <!-- USERNAME -->
-                    <input type="text" placeholder="Username" id="username" required> <!--DOUBT: How to do 'THIS FIELD IS MANDATORY'-->
+                    <input type="text" placeholder="Username" id="username" required> 
                         <ion-icon name="person" id="man"></ion-icon>
                 </div>
                 
                 <div class="Portion_content">
                     <!-- PASSWORD -->
-                    <input type="password" placeholder="Password" id="password" required> <!--DOUBT: How to do 'THIS FIELD IS MANDATORY'-->
+                    <input type="password" placeholder="Password" id="password" required>
                         <ion-icon name="lock-closed" id="lock"></ion-icon>
-                    
                 </div>
 
-                <button type="button" class="Button" onclick="validate()" id="submit">SUBMIT</button>
+                <button type="button" class="Button" onclick="login()" id="submit1">SUBMIT</button>
 
                 <div class="register">
-                    <p>No Account? <a class="register_url" href="register.html">Register</a></p>
+                    <p>Have an Account? <a class="register_url" href="index.html">Login</a></p>
                 </div>
             </div>
         </form>
