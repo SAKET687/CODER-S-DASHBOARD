@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
 }
 html {
   font-size: 62.5%;
@@ -10,7 +11,7 @@ html {
 
 body {
   height: 100%;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-size: 1.9rem;
   color: #fff;
   background-image: url(https://64.media.tumblr.com/7f87779c30139e1c1de6dce95ad7693b/tumblr_ocwdgfVpcX1s3zokdo2_1280.jpg);
@@ -23,16 +24,16 @@ a {
   color: inherit;
 }
 
-.option {
+/* .option {
   font-size: 14px;
   margin-right: 65px;
   margin-left: 65px;
   color: #b7b8c0;
   margin-top: 16px;
-}
+} */
 
 .container {
-  max-width: 110rem;
+  max-width: 90rem;
   padding: 1.5rem;
 }
 .cards {

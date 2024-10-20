@@ -28,18 +28,23 @@ body{
 .Entire{
     width: 420px;
     height: 475px;
+    /* margin-top: 20px; */
     color: white;
     background: transparent;
     border-radius: 30px;
     border: 2px solid gainsboro;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px black;
-    padding: 70px 70px;
+    padding: 60px 70px;
 }
 
 .Entire h3{
     text-align: center;
     font-size: 2em;
+}
+
+form{
+    margin-top: 10px;
 }
 
 .Entire .Portion_content{
